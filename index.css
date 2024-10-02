@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.case{
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.h-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.h-right img{
+ width: 100%;
+}
+.h-left{
+    h1{
+        color: aqua;
+        font-weight: 700;
+        font-size: 40px;
+        cursor: pointer;
+    }
+}
+
+h1:hover{
+    font-size: 50px;
+    color: red;
+     transform: rotate(360deg);
+}
+
+.h-right img:hover {
+    width: 500px;
+}
+
+.mode{
+    background-color: #000;
+    color: #fff;
+  }
+ 
